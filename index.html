@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="img/flowers.png" type="image/x-icon">
+    <title>FLORES</title>
+    <style>
+        /* Estilo para el texto en la izquierda */
+        .left-text {
+            position: absolute;
+            top: 50%;
+            left: 0;
+            transform: translateY(-50%);
+            color: white; /* Color blanco para el texto */
+            text-align: center;
+            font-size: 1em;
+            max-width: 150px;
+            padding: 10px;
+            z-index: 10;
+        }
+  
+        /* Estilo para el texto en la derecha */
+        .right-text {
+            position: absolute;
+            top: 50%;
+            right: 0;
+            transform: translateY(-50%);
+            color: white; /* Color blanco para el texto */
+            text-align: center;
+            font-size: 1em;
+            max-width: 150px;
+            padding: 10px;
+            z-index: 10;
+        }
+        @media (max-width: 768px) {
+          .left-text, .right-text {
+              font-size: 1em; /* Reducir el tamaño del texto */
+              max-width: 120px; /* Limitar el ancho del texto */
+          }
+  
+          /* Ajustar el texto a una posición más cercana al borde */
+          .left-text {
+              left: 10px;
+          }
+  
+          .right-text {
+              right: 10px;
+          }
+      }
+  
+      @media (max-width: 480px) {
+          .left-text, .right-text {
+              font-size: 0.9em; /* Reducir más el tamaño del texto */
+              max-width: 100px; /* Limitar aún más el ancho del texto */
+          }
+      }
+    </style>
+</head>
+<body>
+    <div class="greetings">
+        &nbsp;
+        <span>A</span>
+        <span>M</span>
+        <span>O</span>
+        <span>R</span>
+    </div>
+    <div class="greetings">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+    <div class="description">
+        <span>tengo un regalito para tí!!</span>
+    </div>
+    <div class="button">
+        <button>
+            <a href="FLORES.html">Haga Clic</a>
+        </button>
+        
+    </div>
+</body>
+</html>
